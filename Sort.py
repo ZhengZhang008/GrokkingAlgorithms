@@ -15,4 +15,5 @@ def selectionSort(arr):
     return newArr
 
 
-print(selectionSort([5, 3, 6, 2, 10]))
+if __name__ == "__main__":
+    print(selectionSort([5, 3, 6, 2, 10]))

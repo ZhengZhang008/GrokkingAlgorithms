@@ -28,6 +28,7 @@ def fact(x):
         return x * fact(x - 1)
 
 
-countdown(5)
-greet("maggie")
-print(fact(3))
+if __name__ == "__main__":
+    countdown(5)
+    greet("maggie")
+    print(fact(3))
