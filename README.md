@@ -1,4 +1,4 @@
-# Zheng's Learning on Grokking Algorithms
+# Study note on Grokking Algorithms
 The intention behind creating this study note is to provide a convenient reference for the key concepts within this book. This resource aims to facilitate cross-referencing of information between Chinese and English, while also offering succinct explanations for each of the important knowledge points.
 
 The original book [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms).
