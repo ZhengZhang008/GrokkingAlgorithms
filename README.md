@@ -4,7 +4,6 @@
 [Grokking Algorithms Sample Code](https://github.com/egonschiele/grokking_algorithms)
 
 ## Key Concepts
-
 Binary Search (二分查找)
 : Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item until you've narrowed down the possible locations to just one.
 
@@ -33,3 +32,29 @@ Big O representation (大O表示法)
 | O(*n* * log *n*) | Quick Search |
 | O(*n^2*) | Selection Search |
 | O(*n*!) | Travel Agent |
+
+---
+Array (数组)
+: An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together.
+
+Linked list (链表)
+: A linked list is a sequence of data elements, which are connected together via links. Each data element contains a connection to another data element in the form of a pointer.
+
+Index (索引)
+: Indexing refers to the process of accessing a specific element in a sequence, such as a string or a list, using its position or index number.
+
+| | Array | Linked list |
+|:---:|:---:|:---:|
+| Read | O(1) | O(*n*) |
+| Insert | O(*n*) | O(1) |
+
+Random access (随机访问)
+: Random access files permit nonsequential, or random, access to a file's contents. 
+
+Sequential access (顺序访问)
+: In sequential access, you access the File data from the beginning of the File to the end of the File.
+
+Selection sort (选择排序)
+： Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element and putting them in ascending order. 
+
+---
