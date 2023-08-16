@@ -3,7 +3,7 @@
 
 [Grokking Algorithms Sample Code](https://github.com/egonschiele/grokking_algorithms)
 
-## Key Concepts
+## Chapter 1 Introduction to Algorithms
 Binary Search (二分查找)
 : Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item until you've narrowed down the possible locations to just one.
 
@@ -33,7 +33,7 @@ Big O representation (大O表示法)
 | O(*n^2*) | Selection Search |
 | O(*n*!) | Travel Agent |
 
----
+## Chapter 2 Selection Sorting
 Array (数组)
 : An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together.
 
@@ -57,4 +57,4 @@ Sequential access (顺序访问)
 Selection sort (选择排序)
 ： Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element and putting them in ascending order. 
 
----
+## Chapter 3 Recursion
