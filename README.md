@@ -60,3 +60,9 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 ： Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element and putting them in ascending order. 
 
 ## Chapter 3: Recursion
+
+## Chapter 4: Quick sort
+
+## Chapter 5: Hashtable
+
+## Chapter 6: Breath first search
