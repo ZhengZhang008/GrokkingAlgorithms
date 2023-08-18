@@ -27,13 +27,13 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 - Big O representation (大O表示法)
 : We use big-O notation to asymptotically bound the growth of a running time to within constant factors above and below.
 
-| Big O representation | Common algorithms |
-|:---:|:---:|
-| O(log *n*) | Binary Search |
-| O(*n*) | Simple Search |
-| O(*n* * log *n*) | Quick Search |
-| O(*n^2*) | Selection Search |
-| O(*n*!) | Travel Agent |
+  | Big O representation | Common algorithms |
+  |:---:|:---:|
+  | O(log *n*) | Binary Search |
+  | O(*n*) | Simple Search |
+  | O(*n* * log *n*) | Quick Search |
+  | O(*n^2*) | Selection Search |
+  | O(*n*!) | Travel Agent |
 
 ## Chapter 2: Selection Sorting
 - Array (数组)
@@ -45,10 +45,10 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 - Index (索引)
 : Indexing refers to the process of accessing a specific element in a sequence, such as a string or a list, using its position or index number.
 
-| | Array | Linked list |
-|:---:|:---:|:---:|
-| Read | O(1) | O(*n*) |
-| Insert | O(*n*) | O(1) |
+  | | Array | Linked list |
+  |:---:|:---:|:---:|
+  | Read | O(1) | O(*n*) |
+  | Insert | O(*n*) | O(1) |
 
 - Random access (随机访问)
 : Random access files permit nonsequential, or random, access to a file's contents. 
