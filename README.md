@@ -60,6 +60,23 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 ： Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element and putting them in ascending order. 
 
 ## Chapter 3: Recursion
+- Recursion (递归)
+： Recursion is the process of defining something in terms of itself.
+
+- Pseudocode (伪代码)
+： Pseudocode is more like an algorithmic representation of the code involved.
+
+- Base case (基线条件)
+: The base case is the condition to stop the recursion.
+
+- Recursive case (递归条件)
+: The recursive case is the part where the function calls on itself.
+
+- Call stack (调用栈)
+： When a function is called in Python, a new frame is pushed onto the call stack for its local execution, and every time a function call returns, its frame is popped off the call stack.
+
+- Stack (栈)
+: A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner.
 
 ## Chapter 4: Quick sort
 
