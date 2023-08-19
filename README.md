@@ -98,5 +98,13 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : In average case, we take all possible inputs and calculate the computing time for all of the inputs.
 
 ## Chapter 5: Hashtable
+- Hash table (散列表)
+: Hash Table in Python utilizes an array as a medium of storage and uses the hash method to create an index where an element is to be searched from or needs to be inserted. 
+
+- DNS resolution (DNS解析)
+: The IP addresses when translated to human readable formats or words become known as domain names.
+
+- Cache (缓存)
+: Cache is a temporary space from which data can be read or written at a very high speed, as compared to a database or a web service.
 
 ## Chapter 6: Breath first search
