@@ -79,6 +79,23 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner.
 
 ## Chapter 4: Quick sort
+- Divide and conquer (分而治之)
+: The problem in hand, is divided into smaller sub-problems and then each problem is solved independently. When we keep on dividing the subproblems into even smaller sub-problems, we may eventually reach a stage where no more division is possible.
+
+- Pivot (基准值)
+: Pivot is used to reshape a given data frame organized by given index/column values.
+
+- Partitioning (分区)
+: The partition searches for a specified string, and splits the string into a tuple containing three elements. 
+
+- Merge sort (合并排序)
+: Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
+
+- Worst Case (最坏情况)
+: In the worst case, we calculate the upper bound on the running time of an algorithm.
+
+- Average Case (平均情况)
+: In average case, we take all possible inputs and calculate the computing time for all of the inputs.
 
 ## Chapter 5: Hashtable
 
