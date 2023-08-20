@@ -144,4 +144,12 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 - Tree (树)
 : Tree represents the nodes connected by edges. It is a non-linear data structure.
 
-## Chapter 7: 
+## Chapter 7: Dijkstra's algorithm
+- Dijkstra's algorithm (迪科斯特拉算法)
+- Weight (权重)
+- Weight graph (加权图)
+- Unweighted graph (非加权图)
+- Directed acyclic graph (有向无环图)
+- (父节点)
+- Bellman-Ford algorithm (贝尔曼-福德算法)
+- 
