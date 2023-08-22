@@ -146,10 +146,24 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 
 ## Chapter 7: Dijkstra's algorithm
 - Dijkstra's algorithm (迪科斯特拉算法)
+: Dijkstra's algorithm is an iterative algorithm that provides us with the shortest path from one particular starting node (a in our case) to all other nodes in the graph.
+
 - Weight (权重)
+: Weights is an optional parameter which is used to weigh the possibility for each value.
+
 - Weight graph (加权图)
+: If edges in your graph have weights then your graph is said to be a weighted graph.
+
 - Unweighted graph (非加权图)
+: If the edges do not have weights, the graph is said to be unweighted.
+
 - Directed acyclic graph (有向无环图)
-- (父节点)
+: A directed acyclic graph is a graph which doesn't contain a cycle and has directed edges.
+
+- Parent node(父节点)
+: Any sub node of a given node is called a child node, and the given node, in turn, is the child's parent.
+
 - Bellman-Ford algorithm (贝尔曼-福德算法)
-- 
+: Bellman-Ford algorithm is used to find the shortest path from the source vertex to every vertex in a weighted graph.
+
+## Chapter 8:
