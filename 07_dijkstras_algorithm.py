@@ -11,14 +11,18 @@ def find_lowest_cost_node(costs):
 
 if __name__ == "__main__":
     graph = {}
+
     graph["start"] = {}
     graph["start"]["a"] = 6
     graph["start"]["b"] = 2
+
     graph["a"] = {}
     graph["a"]["fin"] = 1
+
     graph["b"] = {}
     graph["b"]["a"] = 3
     graph["b"]["fin"] = 5
+
     graph["fin"] = {}
 
     infinity = float("inf")
