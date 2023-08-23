@@ -167,5 +167,10 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : Bellman-Ford algorithm is used to find the shortest path from the source vertex to every vertex in a weighted graph.
 
 ## Chapter 8: Greedy algorithms
+- power set (幂集)
+- Approximation algorithm (近似算法)
+- ()
+- ()
+- ()
 - ()
 - ()
