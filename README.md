@@ -25,7 +25,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : An algorithm is said to have a factorial time complexity when it grows in a factorial way based on the size of the input data.
 
 - Big O representation (大O表示法)
-: We use big-O notation to asymptotically bound the growth of a running time to within constant factors above and below.
+: We use big-O notation to asymptotically bind the growth of a running time to within constant factors above and below.
 
   | Big O representation | Common algorithms |
   |:---:|:---:|
@@ -57,7 +57,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : In sequential access, you access the File data from the beginning of the File to the end of the File.
 
 - Selection sort (选择排序)
-： Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element and putting them in ascending order. 
+： Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element and putting it in ascending order. 
 
 ## Chapter 3: Recursion
 - Recursion (递归)
@@ -79,6 +79,9 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner.
 
 ## Chapter 4: Quick sort
+- Quick sort (快速排序)
+:  A sorting algorithm that sorts an array using a divide-and-conquer strategy
+
 - Divide and conquer (分而治之)
 : The problem in hand, is divided into smaller sub-problems and then each problem is solved independently. When we keep on dividing the subproblems into even smaller sub-problems, we may eventually reach a stage where no more division is possible.
 
@@ -95,7 +98,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : In the worst case, we calculate the upper bound on the running time of an algorithm.
 
 - Average Case (平均情况)
-: In average case, we take all possible inputs and calculate the computing time for all of the inputs.
+: In the average case, we take all possible inputs and calculate the computing time for all of the inputs.
 
 ## Chapter 5: Hashtable
 - Hash table (散列表)
@@ -108,7 +111,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : Cache is a temporary space from which data can be read or written at a very high speed, as compared to a database or a web service.
 
 - Collision (冲突)
-: Collision is a python library that is meant for collision detection between convex and concave polygons, circles, and points.
+: Collision is a Python library that is meant for collision detection between convex and concave polygons, circles, and points.
 
 - Constant time (常量时间)
 : Independently of the input data size, it will always have the same running time since it only gets the first value from the list.
@@ -118,7 +121,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 
 ## Chapter 6: Breath-first search
 - Breath-first search (广度优先搜索)
-: Breadth-First Search is a recursive algorithm to search all the vertices of a graph or a tree.
+: Breadth-first search is a recursive algorithm to search all the vertices of a graph or a tree.
 
 - Shortest-path problem (最短路径问题)
 : The shortest path problem is one of finding how to traverse a graph from one specified node to another at minimum cost.
@@ -146,7 +149,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 
 ## Chapter 7: Dijkstra's algorithm
 - Dijkstra's algorithm (迪科斯特拉算法)
-: Dijkstra's algorithm is an iterative algorithm that provides us with the shortest path from one particular starting node (a in our case) to all other nodes in the graph.
+: Dijkstra's algorithm is an iterative algorithm that provides us with the shortest path from one particular starting node (in our case) to all other nodes in the graph.
 
 - Weight (权重)
 : Weights is an optional parameter which is used to weigh the possibility for each value.
@@ -158,18 +161,28 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : If the edges do not have weights, the graph is said to be unweighted.
 
 - Directed acyclic graph (有向无环图)
-: A directed acyclic graph is a graph which doesn't contain a cycle and has directed edges.
+: A directed acyclic graph is a graph that doesn't contain a cycle and has directed edges.
 
 - Parent node(父节点)
-: Any sub node of a given node is called a child node, and the given node, in turn, is the child's parent.
+: Any sub-node of a given node is called a child node, and the given node, in turn, is the child's parent.
 
 - Bellman-Ford algorithm (贝尔曼-福德算法)
 : Bellman-Ford algorithm is used to find the shortest path from the source vertex to every vertex in a weighted graph.
 
 ## Chapter 8: Greedy algorithms
-- power set (幂集)
+- Greedy algorithms (贪婪算法)
+: Greedy algorithms are suitable for problems that have certain properties, such as optimal substructure and greedy choice.
+
+- Power set (幂集)
+: The power set of a set S is the set of all subsets of S.
+
 - Approximation algorithm (近似算法)
-- ()
+: An approximation algorithm is a way of dealing with NP-completeness for an optimization problem.
+
+- Factorial function (阶乘函数)
+: The number is multiplied with all the integers that lie between 1 and the number itself.
+
+## Chapter 9:
 - ()
 - ()
 - ()
