@@ -182,8 +182,19 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 - Factorial function (阶乘函数)
 : The number is multiplied with all the integers that lie between 1 and the number itself.
 
-## Chapter 9:
+## Chapter 9: Dynamic programming
+- Dynamic programming (动态规划)
+: Dynamic programming is most important to optimize the solutions to the problem in comparison to the recursive approach.
+
+- Feynman algorithm (费曼算法)
+: 1. Write down the problem. 2. Think really hard. 3. Write down the solution.
+
+- Levenshtein distance (编辑距离)
+: The Levenshtein distance is a text similarity measure that compares two words and returns a numeric value representing the distance between them.
+
+## Chapter 10:
 - ()
+:
+
 - ()
-- ()
-- ()
+:
