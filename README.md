@@ -209,14 +209,39 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : Naive Bayes classifier is successfully used in various applications such as spam filtering, text classification, sentiment analysis, and recommender systems.
 
 ## Chapter 11: The next step
-- ()
+- Binary search tree (二叉查找树)
 :
 
-- ()
+- (B树)
 :
 
-- ()
+- (红黑树)
 :
 
-- ()
+- (伸展树)
 :
+
+- Inverted index (反向索引)
+:
+
+- (傅里叶变换)
+:
+
+- (并行算法)
+:
+
+- (分布式算法)
+:
+
+- (布隆过滤器)
+:
+
+- Secure hash algorithm (安全散列算法)
+:
+
+- Diffie-Hellman algorithm ()
+:
+
+- (线性规划)
+:
+
