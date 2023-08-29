@@ -192,7 +192,29 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 - Levenshtein distance (编辑距离)
 : The Levenshtein distance is a text similarity measure that compares two words and returns a numeric value representing the distance between them.
 
-## Chapter 10:
+## Chapter 10: KNN
+- K-nearest neighbours (K最近邻)
+: K-nearest neighbour basically creates an imaginary boundary to classify the data.
+
+- Normalization (归一化)
+: Normalization is the process of organizing data in a database.
+
+- Regression (回归)
+: Regression refers to the process of a project regressing, or returning to a previous state.
+
+- Cosine similarity (余弦相似度)
+: Cosine similarity is a measure of similarity, often used to measure document similarity in text analysis.
+
+- Naive Bayes classifier (朴素贝叶斯分类器)
+: Naive Bayes classifier is successfully used in various applications such as spam filtering, text classification, sentiment analysis, and recommender systems.
+
+## Chapter 11: The next step
+- ()
+:
+
+- ()
+:
+
 - ()
 :
 
