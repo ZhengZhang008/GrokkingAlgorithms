@@ -6,10 +6,10 @@ The original book ["Grokking Algorithms"](https://www.manning.com/books/grokking
 The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/egonschiele/grokking_algorithms).
 
 ## Chapter 1: Introduction to Algorithms
-- Binary Search (二分查找)
+- **Binary Search (二分查找)**
 : Binary search is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.
 
-- Linear Search (简单查找)
+- **Linear Search (简单查找)**
 : Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise, the search continues till the end of the data set.
 
 - Bucket (桶)
@@ -25,7 +25,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : The time it takes to run an algorithm is directly proportional to the factorial of the input size.
 
 - Big O representation (大O表示法)
-: Big O notation characterizes functions according to their growth rates: different functions with the same asymptotic growth rate may be represented using the same O notation. The letter O is used because the growth rate of a function is also referred to as the order of the function.
+: Big O notation characterizes functions according to their growth rates: different functions with the same asymptotic growth rate may be represented using the same O notation. The letter O is used because the growth rate of a function is also referred to as the **order of the function**.
 
   | Big O representation | Common algorithms |
   |:---:|:---:|
@@ -36,28 +36,29 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
   | O(*n*!) | Travel Agent |
 
 ## Chapter 2: Selection Sorting
-- Array (数组)
-: An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together.
+- **Array (数组)**
+: An array is a data structure, which can store a fixed-size collection of elements of the same data type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
 
-- Linked list (链表)
-: A linked list is a sequence of data elements, which are connected together via links. Each data element contains a connection to another data element in the form of a pointer.
+- **Linked list (链表)**
+: A linked list is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes that together represent a sequence.
 
 - Index (索引)
-: Indexing refers to the process of accessing a specific element in a sequence, such as a string or a list, using its position or index number.
+: An index is sorting data by creating keywords or a list with pointers to where further information about the keyword is found.
 
   | | Array | Linked list |
   |:---:|:---:|:---:|
   | Read | O(1) | O(*n*) |
   | Insert | O(*n*) | O(1) |
+  | Delete | O(*n*) | O(1) |
 
 - Random access (随机访问)
-: Random access files permit nonsequential, or random, access to a file's contents. 
+: Random access is the ability to access an arbitrary element of a sequence in equal time or any datum from a population of addressable elements roughly as easily and efficiently as any other, no matter how many elements may be in the set. 
 
 - Sequential access (顺序访问)
-: In sequential access, you access the File data from the beginning of the File to the end of the File.
+: Sequential access is a term describing a group of elements (such as data in a memory array or a disk file or on magnetic-tape data storage) being accessed in a predetermined, ordered sequence.
 
-- Selection sort (选择排序)
-： Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element and putting it in ascending order. 
+- **Selection sort (选择排序)**
+: Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
 
 ## Chapter 3: Recursion
 - Recursion (递归)
