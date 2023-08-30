@@ -7,25 +7,25 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 
 ## Chapter 1: Introduction to Algorithms
 - Binary Search (二分查找)
-: Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item until you've narrowed down the possible locations to just one.
+: Binary search is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.
 
 - Linear Search (简单查找)
-: Linear search is a very simple search algorithm. A sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
+: Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise, the search continues till the end of the data set.
 
 - Bucket (桶)
-: You can treat a bucket as an element of an array, as a cell, or as a space where something can live.
+: You can treat a bucket as an element of an array, a cell, or a space where something can live.
 
-- Linear time (线性时间)
-: In linear time algorithms every single element in the input is visited once. As the input size grows our algorithm's run time grows exactly with the size of the input.
+- Linear time (线性时间) - O(*n*)
+: The running time increases most linearly with the size of the input.
 
-- Logarithmic time (对数时间)
-: A logarithmic algorithm splits a list or other data structure into smaller pieces every time it runs.
+- Logarithmic time (对数时间) - O(log *n*)
+: When the algorithm runtime increases very slowly compared to an increase in input size i.e. logarithm of input size.
 
 - Factorial time (阶乘时间)
-: An algorithm is said to have a factorial time complexity when it grows in a factorial way based on the size of the input data.
+: The time it takes to run an algorithm is directly proportional to the factorial of the input size.
 
 - Big O representation (大O表示法)
-: We use big-O notation to asymptotically bind the growth of a running time to within constant factors above and below.
+: Big O notation characterizes functions according to their growth rates: different functions with the same asymptotic growth rate may be represented using the same O notation. The letter O is used because the growth rate of a function is also referred to as the order of the function.
 
   | Big O representation | Common algorithms |
   |:---:|:---:|
