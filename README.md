@@ -79,27 +79,33 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 - Stack (栈)
 : A stack is a collection of independent components that work together to support the execution of an application. The components, which may include an operating system, architectural layers, protocols, runtime environments, databases and function calls, are stacked one on top of each other in a hierarchy.
 
+- Tail call (尾递归)
+: Tail call is a subroutine call performed as the final action of a procedure. If the target of a tail is the same subroutine, the subroutine is said to be tail recursive, which is a special case of direct recursion.
+
 ## Chapter 4: Quick sort
-- Quick sort (快速排序)
-:  A sorting algorithm that sorts an array using a divide-and-conquer strategy
+- **Quick sort (快速排序)**
+: QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 - Divide and conquer (分而治之)
-: The problem in hand, is divided into smaller sub-problems and then each problem is solved independently. When we keep on dividing the subproblems into even smaller sub-problems, we may eventually reach a stage where no more division is possible.
+: Divide and Conquer is a recursive problem-solving approach which break a problem into smaller subproblems, recursively solve the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
 
 - Pivot (基准值)
-: Pivot is used to reshape a given data frame organized by given index/column values.
+: A Pivot element refers to an element of a matrix which is selected by an algorithm to proceed further calculations.
 
 - Partitioning (分区)
-: The partition searches for a specified string, and splits the string into a tuple containing three elements. 
+: Partitioning is a method used for making a large code base or project manageable by breaking up different segments of it into smaller chunks that can be handled easily, as opposed to a large code that can have many areas of failure and take up large portions of a disk as well as take a very long time to compile.
 
-- Merge sort (合并排序)
+- Proving by induction (归纳证明)
+: The proof consists of two steps: The basis (base case): prove that the statement holds for the first natural number n. Usually, n = 0 or n = 1. The inductive step: prove that, if the statement holds for some natural number n, then the statement holds for n + 1.
+
+- **Merge sort (合并排序)**
 : Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
 
-- Worst Case (最坏情况)
-: In the worst case, we calculate the upper bound on the running time of an algorithm.
+- Worst Case (最糟情况)
+: Worst case is the function which performs the maximum number of steps on input data of size n.
 
 - Average Case (平均情况)
-: In the average case, we take all possible inputs and calculate the computing time for all of the inputs.
+: Average case is the function which performs an average number of steps on input data of n elements.
 
 ## Chapter 5: Hashtable
 - Hash table (散列表)
