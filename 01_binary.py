@@ -26,5 +26,6 @@ if __name__ == "__main__":
     # We must initialize the class to use the methods of this class
     my_list = [1, 3, 5, 7, 9]
 
+    # Testing the binary search function
     print(binary_search(my_list, 3))  # => 1
     print(binary_search(my_list, -1))  # => None
