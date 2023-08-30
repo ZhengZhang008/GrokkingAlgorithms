@@ -24,7 +24,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 - Factorial time (阶乘时间)
 : The time it takes to run an algorithm is directly proportional to the factorial of the input size.
 
-- Big O representation (大O表示法)
+- **Big O representation (大O表示法)**
 : Big O notation characterizes functions according to their growth rates: different functions with the same asymptotic growth rate may be represented using the same O notation. The letter O is used because the growth rate of a function is also referred to as the **order of the function**.
 
   | Big O representation | Common algorithms |
@@ -61,23 +61,23 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
 
 ## Chapter 3: Recursion
-- Recursion (递归)
-： Recursion is the process of defining something in terms of itself.
+- **Recursion (递归)**
+: Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.
 
 - Pseudocode (伪代码)
-： Pseudocode is more like an algorithmic representation of the code involved.
+: Pseudocode is a plain language description of the steps in an algorithm or another system. Pseudocode often uses structural conventions of a normal programming language, but is intended for human reading rather than machine reading.
 
 - Base case (基线条件)
-: The base case is the condition to stop the recursion.
+: The base case is a way to return without making a recursive call. In other words, it is the mechanism that stops this process of ever more recursive calls and an ever growing stack of function calls waiting on the return of other function calls.
 
 - Recursive case (递归条件)
-: The recursive case is the part where the function calls on itself.
+: The recursive case is input(s) for which the program recurs (calls itself).
 
 - Call stack (调用栈)
-： When a function is called in Python, a new frame is pushed onto the call stack for its local execution, and every time a function call returns, its frame is popped off the call stack.
+: The call stack is used to keep track of multiple function calls. It is like a real stack in data structures where data can be pushed and popped and follows the Last In First Out (LIFO) principle. We use call stack for memorizing which function is running right now.
 
 - Stack (栈)
-: A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner.
+: A stack is a collection of independent components that work together to support the execution of an application. The components, which may include an operating system, architectural layers, protocols, runtime environments, databases and function calls, are stacked one on top of each other in a hierarchy.
 
 ## Chapter 4: Quick sort
 - Quick sort (快速排序)
