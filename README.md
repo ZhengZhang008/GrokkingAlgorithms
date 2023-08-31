@@ -76,7 +76,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 - Call stack (调用栈)
 : The call stack is used to keep track of multiple function calls. It is like a real stack in data structures where data can be pushed and popped and follows the Last In First Out (LIFO) principle. We use call stack for memorizing which function is running right now.
 
-- Stack (栈)
+- **Stack (栈)**
 : A stack is a collection of independent components that work together to support the execution of an application. The components, which may include an operating system, architectural layers, protocols, runtime environments, databases and function calls, are stacked one on top of each other in a hierarchy.
 
 - Tail call (尾递归)
@@ -87,10 +87,10 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 - Divide and conquer (分而治之)
-: Divide and Conquer is a recursive problem-solving approach which break a problem into smaller subproblems, recursively solve the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
+: Divide and Conquer is a recursive problem-solving approach that breaks a problem into smaller subproblems, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
 
 - Pivot (基准值)
-: A Pivot element refers to an element of a matrix which is selected by an algorithm to proceed further calculations.
+: A Pivot element refers to an element of a matrix that is selected by an algorithm to proceed with further calculations.
 
 - Partitioning (分区)
 : Partitioning is a method used for making a large code base or project manageable by breaking up different segments of it into smaller chunks that can be handled easily, as opposed to a large code that can have many areas of failure and take up large portions of a disk as well as take a very long time to compile.
@@ -108,23 +108,23 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : Average case is the function which performs an average number of steps on input data of n elements.
 
 ## Chapter 5: Hashtable
-- Hash table (散列表)
-: Hash Table in Python utilizes an array as a medium of storage and uses the hash method to create an index where an element is to be searched from or needs to be inserted. 
+- **Hash table (散列表)**
+: A hash table, also known as a hash map, is a data structure that implements an associative array or dictionary. It is an abstract data type that maps keys to values.[2] A hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored. 
 
 - DNS resolution (DNS解析)
-: The IP addresses when translated to human readable formats or words become known as domain names.
+: DNS servers convert URLs and domain names into IP addresses that computers can understand and use. They translate what a user types into a browser into something the machine can use to find a webpage. This process of translation and lookup is called DNS resolution.
 
 - Cache (缓存)
-: Cache is a temporary space from which data can be read or written at a very high speed, as compared to a database or a web service.
+: In computing, a cache is a high-speed data storage layer which stores a subset of data, typically transient in nature, so that future requests for that data are served up faster than is possible by accessing the data's primary storage location.
 
 - Collision (冲突)
-: Collision is a Python library that is meant for collision detection between convex and concave polygons, circles, and points.
+: One occurs when two or more sets of data are modified and produce the same resulting value. The other is specific to networking and happens when two devices transmit data at the same time.
 
 - Constant time (常量时间)
-: Independently of the input data size, it will always have the same running time since it only gets the first value from the list.
+: An algorithm is said to be constant time (also written as time) if the value of (the complexity of the algorithm) is bounded by a value that does not depend on the size of the input.
 
 - Resizing (调整长度)
-: The resize triggers the resize event or attaches a function to run when a resize event occurs.
+: The RESIZE statement is used to adjust: the size of a dynamic variable ( dynamic-clause ), or. the number of occurrences of X-arrays ( array-clause ).
 
 ## Chapter 6: Breath-first search
 - Breath-first search (广度优先搜索)
