@@ -6,26 +6,26 @@ The original book ["Grokking Algorithms"](https://www.manning.com/books/grokking
 The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/egonschiele/grokking_algorithms).
 
 ## Chapter 1: Introduction to Algorithms
-- Binary Search (二分查找)
-: Binary search is an efficient algorithm for finding an item from a sorted list of items. It works by repeatedly dividing in half the portion of the list that could contain the item until you've narrowed down the possible locations to just one.
+- **Binary Search (二分查找)**
+: Binary search is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.
 
-- Linear Search (简单查找)
-: Linear search is a very simple search algorithm. A sequential search is made over all items one by one. Every item is checked and if a match is found then that particular item is returned, otherwise the search continues till the end of the data collection.
+- **Linear Search (简单查找)**
+: Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise, the search continues till the end of the data set.
 
 - Bucket (桶)
-: You can treat a bucket as an element of an array, as a cell, or as a space where something can live.
+: You can treat a bucket as an element of an array, a cell, or a space where something can live.
 
-- Linear time (线性时间)
-: In linear time algorithms every single element in the input is visited once. As the input size grows our algorithm's run time grows exactly with the size of the input.
+- Linear time (线性时间) - O(*n*)
+: The running time increases most linearly with the size of the input.
 
-- Logarithmic time (对数时间)
-: A logarithmic algorithm splits a list or other data structure into smaller pieces every time it runs.
+- Logarithmic time (对数时间) - O(log *n*)
+: When the algorithm runtime increases very slowly compared to an increase in input size i.e. logarithm of input size.
 
 - Factorial time (阶乘时间)
-: An algorithm is said to have a factorial time complexity when it grows in a factorial way based on the size of the input data.
+: The time it takes to run an algorithm is directly proportional to the factorial of the input size.
 
-- Big O representation (大O表示法)
-: We use big-O notation to asymptotically bind the growth of a running time to within constant factors above and below.
+- **Big O representation (大O表示法)**
+: Big O notation characterizes functions according to their growth rates: different functions with the same asymptotic growth rate may be represented using the same O notation. The letter O is used because the growth rate of a function is also referred to as the **order of the function**.
 
   | Big O representation | Common algorithms |
   |:---:|:---:|
@@ -36,88 +36,95 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
   | O(*n*!) | Travel Agent |
 
 ## Chapter 2: Selection Sorting
-- Array (数组)
-: An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together.
+- **Array (数组)**
+: An array is a data structure, which can store a fixed-size collection of elements of the same data type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
 
-- Linked list (链表)
-: A linked list is a sequence of data elements, which are connected together via links. Each data element contains a connection to another data element in the form of a pointer.
+- **Linked list (链表)**
+: A linked list is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes that together represent a sequence.
 
 - Index (索引)
-: Indexing refers to the process of accessing a specific element in a sequence, such as a string or a list, using its position or index number.
+: An index is sorting data by creating keywords or a list with pointers to where further information about the keyword is found.
 
   | | Array | Linked list |
   |:---:|:---:|:---:|
   | Read | O(1) | O(*n*) |
   | Insert | O(*n*) | O(1) |
+  | Delete | O(*n*) | O(1) |
 
 - Random access (随机访问)
-: Random access files permit nonsequential, or random, access to a file's contents. 
+: Random access is the ability to access an arbitrary element of a sequence in equal time or any datum from a population of addressable elements roughly as easily and efficiently as any other, no matter how many elements may be in the set. 
 
 - Sequential access (顺序访问)
-: In sequential access, you access the File data from the beginning of the File to the end of the File.
+: Sequential access is a term describing a group of elements (such as data in a memory array or a disk file or on magnetic-tape data storage) being accessed in a predetermined, ordered sequence.
 
-- Selection sort (选择排序)
-： Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum element and putting it in ascending order. 
+- **Selection sort (选择排序)**
+: Selection sort is a sorting algorithm that selects the smallest element from an unsorted list in each iteration and places that element at the beginning of the unsorted list.
 
 ## Chapter 3: Recursion
-- Recursion (递归)
-： Recursion is the process of defining something in terms of itself.
+- **Recursion (递归)**
+: Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.
 
 - Pseudocode (伪代码)
-： Pseudocode is more like an algorithmic representation of the code involved.
+: Pseudocode is a plain language description of the steps in an algorithm or another system. Pseudocode often uses structural conventions of a normal programming language, but is intended for human reading rather than machine reading.
 
 - Base case (基线条件)
-: The base case is the condition to stop the recursion.
+: The base case is a way to return without making a recursive call. In other words, it is the mechanism that stops this process of ever more recursive calls and an ever growing stack of function calls waiting on the return of other function calls.
 
 - Recursive case (递归条件)
-: The recursive case is the part where the function calls on itself.
+: The recursive case is input(s) for which the program recurs (calls itself).
 
 - Call stack (调用栈)
-： When a function is called in Python, a new frame is pushed onto the call stack for its local execution, and every time a function call returns, its frame is popped off the call stack.
+: The call stack is used to keep track of multiple function calls. It is like a real stack in data structures where data can be pushed and popped and follows the Last In First Out (LIFO) principle. We use call stack for memorizing which function is running right now.
 
-- Stack (栈)
-: A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner.
+- **Stack (栈)**
+: A stack is a collection of independent components that work together to support the execution of an application. The components, which may include an operating system, architectural layers, protocols, runtime environments, databases and function calls, are stacked one on top of each other in a hierarchy.
+
+- Tail call (尾递归)
+: Tail call is a subroutine call performed as the final action of a procedure. If the target of a tail is the same subroutine, the subroutine is said to be tail recursive, which is a special case of direct recursion.
 
 ## Chapter 4: Quick sort
-- Quick sort (快速排序)
-:  A sorting algorithm that sorts an array using a divide-and-conquer strategy
+- **Quick sort (快速排序)**
+: QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked pivot by placing the pivot in its correct position in the sorted array.
 
 - Divide and conquer (分而治之)
-: The problem in hand, is divided into smaller sub-problems and then each problem is solved independently. When we keep on dividing the subproblems into even smaller sub-problems, we may eventually reach a stage where no more division is possible.
+: Divide and Conquer is a recursive problem-solving approach that breaks a problem into smaller subproblems, recursively solves the subproblems, and finally combines the solutions to the subproblems to solve the original problem.
 
 - Pivot (基准值)
-: Pivot is used to reshape a given data frame organized by given index/column values.
+: A Pivot element refers to an element of a matrix that is selected by an algorithm to proceed with further calculations.
 
 - Partitioning (分区)
-: The partition searches for a specified string, and splits the string into a tuple containing three elements. 
+: Partitioning is a method used for making a large code base or project manageable by breaking up different segments of it into smaller chunks that can be handled easily, as opposed to a large code that can have many areas of failure and take up large portions of a disk as well as take a very long time to compile.
 
-- Merge sort (合并排序)
+- Proving by induction (归纳证明)
+: The proof consists of two steps: The basis (base case): prove that the statement holds for the first natural number n. Usually, n = 0 or n = 1. The inductive step: prove that, if the statement holds for some natural number n, then the statement holds for n + 1.
+
+- **Merge sort (合并排序)**
 : Merge sort is defined as a sorting algorithm that works by dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
 
-- Worst Case (最坏情况)
-: In the worst case, we calculate the upper bound on the running time of an algorithm.
+- Worst Case (最糟情况)
+: Worst case is the function which performs the maximum number of steps on input data of size n.
 
 - Average Case (平均情况)
-: In the average case, we take all possible inputs and calculate the computing time for all of the inputs.
+: Average case is the function which performs an average number of steps on input data of n elements.
 
 ## Chapter 5: Hashtable
-- Hash table (散列表)
-: Hash Table in Python utilizes an array as a medium of storage and uses the hash method to create an index where an element is to be searched from or needs to be inserted. 
+- **Hash table (散列表)**
+: A hash table, also known as a hash map, is a data structure that implements an associative array or dictionary. It is an abstract data type that maps keys to values.[2] A hash table uses a hash function to compute an index, also called a hash code, into an array of buckets or slots, from which the desired value can be found. During lookup, the key is hashed and the resulting hash indicates where the corresponding value is stored. 
 
 - DNS resolution (DNS解析)
-: The IP addresses when translated to human readable formats or words become known as domain names.
+: DNS servers convert URLs and domain names into IP addresses that computers can understand and use. They translate what a user types into a browser into something the machine can use to find a webpage. This process of translation and lookup is called DNS resolution.
 
 - Cache (缓存)
-: Cache is a temporary space from which data can be read or written at a very high speed, as compared to a database or a web service.
+: In computing, a cache is a high-speed data storage layer which stores a subset of data, typically transient in nature, so that future requests for that data are served up faster than is possible by accessing the data's primary storage location.
 
 - Collision (冲突)
-: Collision is a Python library that is meant for collision detection between convex and concave polygons, circles, and points.
+: One occurs when two or more sets of data are modified and produce the same resulting value. The other is specific to networking and happens when two devices transmit data at the same time.
 
 - Constant time (常量时间)
-: Independently of the input data size, it will always have the same running time since it only gets the first value from the list.
+: An algorithm is said to be constant time (also written as time) if the value of (the complexity of the algorithm) is bounded by a value that does not depend on the size of the input.
 
 - Resizing (调整长度)
-: The resize triggers the resize event or attaches a function to run when a resize event occurs.
+: The RESIZE statement is used to adjust: the size of a dynamic variable ( dynamic-clause ), or. the number of occurrences of X-arrays ( array-clause ).
 
 ## Chapter 6: Breath-first search
 - Breath-first search (广度优先搜索)
