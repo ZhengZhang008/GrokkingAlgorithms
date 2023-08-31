@@ -1,4 +1,5 @@
 def find_lowest_cost_node(costs):
+    # Initialize the lowest cost and node
     lowest_cost = float("inf")
     lowest_cost_node = None
     # Go through each node.
@@ -9,11 +10,12 @@ def find_lowest_cost_node(costs):
             # ... set it as the new lowest-cost node.
             lowest_cost = cost
             lowest_cost_node = node
+    # Return the node with the lowest cost
     return lowest_cost_node
 
 
 if __name__ == "__main__":
-    # the graph
+    # Initialize the graph
     graph = {}
 
     graph["start"] = {}
@@ -29,13 +31,14 @@ if __name__ == "__main__":
 
     graph["fin"] = {}
 
-    # the costs table
+    # Initialize the costs table
     infinity = float("inf")
     costs = {"a": 6, "b": 2, "fin": infinity}
 
-    # the parents table
+    # Initialize the parents table
     parents = {"a": "start", "b": "start", "fin": None}
 
+    # Initialize the processed nodes list
     processed = []
 
     # Find the lowest-cost node that you haven't processed yet.
