@@ -2,6 +2,7 @@ def check_voter(name):
     if voted.get(name):
         print("kick them out!")
     else:
+        # If the voter hasn't voted yet, let them vote and mark them as voted
         voted[name] = True
         print("let them vote!")
 
@@ -10,6 +11,7 @@ def get_page(url):
     if cache.get(url):
         return cache[url]
     else:
+        # If the page is not in cache, get it from the server and store it in cache
         data = get_data_from_server(url)
         cache[url] = data
         return data
