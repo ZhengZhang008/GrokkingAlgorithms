@@ -124,35 +124,42 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : An algorithm is said to be constant time (also written as time) if the value of (the complexity of the algorithm) is bounded by a value that does not depend on the size of the input.
 
 - Resizing (调整长度)
-: The RESIZE statement is used to adjust: the size of a dynamic variable ( dynamic-clause ), or. the number of occurrences of X-arrays ( array-clause ).
+: The RESIZE statement is used to adjust: the size of a dynamic variable (dynamic-clause), or. the number of occurrences of X-arrays (array-clause).
 
 ## Chapter 6: Breath-first search
-- Breath-first search (广度优先搜索)
-: Breadth-first search is a recursive algorithm to search all the vertices of a graph or a tree.
+- **Breath-first search (广度优先搜索)**
+: Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level.
+
+- Graph theory (图算法)
+: Graph theory is the study of graphs that concerns with the relationship among edges and vertices.
 
 - Shortest-path problem (最短路径问题)
-: The shortest path problem is one of finding how to traverse a graph from one specified node to another at minimum cost.
+: In graph theory, the shortest path problem is the problem of finding a path between two vertices (or nodes) in a graph such that the sum of the weights of its constituent edges is minimized.
 
 - Node (节点)
-: A Node is a data structure that stores a value that can be of any data type and has a pointer to another node.
+: A node is a basic unit of a data structure, such as a linked list or tree data structure. Nodes contain data and also may link to other nodes.
 
 - Edge (边)
-: An edge (or link) of a network (or graph) is one of the connections between the nodes (or vertices) of the network.
+: Edges convey information about the links between the nodes.
 
 - Queue (队列)
-: Queue is a linear data structure with a rear and a front end, similar to a stack.
+: A Queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order. We define a queue to be a list in which all additions to the list are made at one end, and all deletions from the list are made at the other end.
+
+  | First In First Out (FIFO) | Last In First Out (LIFO) |
+  |:---:|:---:|
+  | Queue | Stack |
 
 - Directed graph (有向图)
-: In directed graphs, the connections between nodes have a direction and are called arcs.
+: A directed graph is defined as a type of graph where the edges have a direction associated with them.
 
 - Undirected graph (无向图)
-: In undirected graphs, the connections have no direction and are called edges.
+: An undirected graph is a type of graph where the edges have no specified direction assigned to the them.
 
 - Topological order (拓扑排序)
-: A topological order is a linear ordering of the vertices in a graph such that for every directed edge u -> v from vertex u to vertex v, vertex u comes before vertex v in the ordering.
+: A topological sort or topological ordering of a directed graph is a linear ordering of its vertices such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering.
 
 - Tree (树)
-: Tree represents the nodes connected by edges. It is a non-linear data structure.
+: A tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
 
 ## Chapter 7: Dijkstra's algorithm
 - Dijkstra's algorithm (迪科斯特拉算法)
