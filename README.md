@@ -1,5 +1,5 @@
 # Study note on Grokking Algorithms
-The intention behind creating this study note is to provide a convenient reference for the key concepts within this book. This resource aims to facilitate cross-referencing of information between Chinese and English, while also offering succinct explanations for each of the important knowledge points.
+This study note provides a convenient reference for key concepts within the book and aims to facilitate cross-referencing of information between Chinese and English readers. It includes summaries of various chapters and concepts discussed in the book, such as binary search, selection sorting, recursion, quicksort, hashtables, and more. Each chapter appears to have a brief overview of the key topics covered in that chapter, making it a helpful resource for those studying algorithms and data structures. Additionally, it includes explanations of terms and concepts related to algorithms and computer science, making it a useful reference for learners and practitioners in the field.
 
 The original book ["Grokking Algorithms"](https://www.manning.com/books/grokking-algorithms), [《算法图解》](https://github.com/ZhengZhang008/GrokkingAlgorithms/blob/master/%E7%AE%97%E6%B3%95%E5%9B%BE%E8%A7%A3.pdf).
 
