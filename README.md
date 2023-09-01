@@ -227,38 +227,37 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 
 ## Chapter 11: The next step
 - Binary search tree (二叉查找树)
-:
+: Binary search tree is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node's left subtree and less than the ones in its right subtree.
 
-- (B树)
-:
+- B-tree (B树)
+: B-tree is a special type of self-balancing search tree in which each node can contain more than one key and can have more than two children. It is a generalized form of the binary search tree. It is also known as a height-balanced m-way tree.
 
-- (红黑树)
-:
+- Red-black tree (红黑树)
+: A red-black tree is a binary search tree which has the following red-black properties: Every node is either red or black. Every leaf (NULL) is black. If a node is red, then both its children are black. Every simple path from a node to a descendant leaf contains the same number of black nodes.
 
-- (伸展树)
-:
+- Splay tree (伸展树)
+: A splay tree is a binary search tree with the additional property that recently accessed elements are quick to access again. Like self-balancing binary search trees, a splay tree performs basic operations such as insertion, look-up and removal in O(log n) amortized time.
 
 - Inverted index (反向索引)
-:
+: An inverted index is an index data structure storing a mapping from content, such as words or numbers, to its locations in a document or a set of documents. In simple words, it is a hashmap-like data structure that directs you from a word to a document or a web page.
 
-- (傅里叶变换)
-:
+- Fourier transform (傅里叶变换)
+: The Fourier transform is a mathematical formula that transforms a signal sampled in time or space to the same signal sampled in temporal or spatial frequency. In signal processing, the Fourier transform can reveal important characteristics of a signal, namely, its frequency components.
 
-- (并行算法)
-:
+- Parallel algorithm (并行算法)
+: A parallel algorithm is an algorithm that can execute several instructions simultaneously on different processing devices and then combine all the individual outputs to produce the final result.
 
-- (分布式算法)
-:
+- Distributed computing (分布式算法)
+: A distributed system is a system whose components are located on different networked computers, which communicate and coordinate their actions by passing messages to one another. Distributed computing is a field of computer science that studies distributed systems.
 
-- (布隆过滤器)
-:
+- Bloom filter (布隆过滤器)
+: A Bloom filter is a space-efficient probabilistic data structure that is used to test whether an element is a member of a set.
 
 - Secure hash algorithm (安全散列算法)
-:
+: Secure Hash Algorithm 1 is a cryptographic algorithm which takes an input and produces a 160-bit (20-byte) hash value. This hash value is known as a message digest. This message digest is usually then rendered as a hexadecimal number which is 40 digits long.
 
-- Diffie-Hellman algorithm ()
-:
+- Diffie-Hellman algorithm (密钥协商算法)
+: The Diffie–Hellman (DH) Algorithm is a key-exchange protocol that enables two parties communicating over a public channel to establish a mutual secret without it being transmitted over the Internet. DH enables the two to use a public key to encrypt and decrypt their conversation or data using symmetric cryptography.
 
-- (线性规划)
-:
-
+- Linear programming (线性规划)
+: Linear programming (LP) or Linear Optimisation may be defined as the problem of maximizing or minimizing a linear function that is subjected to linear constraints. The constraints may be equalities or inequalities. The optimisation problems involve the calculation of profit and loss.
