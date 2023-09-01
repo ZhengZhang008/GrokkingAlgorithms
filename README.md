@@ -131,7 +131,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property. It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level.
 
 - Graph theory (图算法)
-: Graph theory is the study of graphs that concerns with the relationship among edges and vertices.
+: Graph theory is the study of graphs that is concerned with the relationship between edges and vertices.
 
 - Shortest-path problem (最短路径问题)
 : In graph theory, the shortest path problem is the problem of finding a path between two vertices (or nodes) in a graph such that the sum of the weights of its constituent edges is minimized.
@@ -153,7 +153,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : A directed graph is defined as a type of graph where the edges have a direction associated with them.
 
 - Undirected graph (无向图)
-: An undirected graph is a type of graph where the edges have no specified direction assigned to the them.
+: An undirected graph is a type of graph where the edges have no specified direction assigned to them.
 
 - Topological order (拓扑排序)
 : A topological sort or topological ordering of a directed graph is a linear ordering of its vertices such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering.
@@ -175,7 +175,7 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : An unweighted graph is a graph in which the edges do not have weights or costs associated with them. Instead, they simply represent the presence of a connection between two vertices.
 
 - Directed acyclic graph (有向无环图)
-: a directed acyclic graph (DAG) is a graph that is directed and without cycles connecting the other edges. This means that it is impossible to traverse the entire graph starting at one edge. The edges of the directed graph only go one way.
+: A directed acyclic graph (DAG) is a graph that is directed and without cycles connecting the other edges. This means that it is impossible to traverse the entire graph starting at one edge. The edges of the directed graph only go one way.
 
 - Parent node (父节点)
 : Any sub-node of a given node is called a child node, and the given node, in turn, is the child's parent.
@@ -184,17 +184,17 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : The Bellman-Ford algorithm emulates the shortest paths from a single source vertex to all other vertices in a weighted digraph. It is slower than Dijkstra's algorithm for the same problem but more versatile because it can handle graphs with some edge weights that are negative numbers.
 
 ## Chapter 8: Greedy algorithms
-- Greedy algorithms (贪婪算法)
-: Greedy algorithms are suitable for problems that have certain properties, such as optimal substructure and greedy choice.
+- **Greedy algorithms (贪婪算法)**
+: A greedy algorithm is an algorithm that finds a solution to problems in the shortest time possible. It picks the path that seems optimal at the moment without regard for the overall optimization of the solution that would be formed.
 
 - Power set (幂集)
-: The power set of a set S is the set of all subsets of S.
+: The power set is a set which includes all the subsets including the empty set and the original set itself. It is usually denoted by P. Power set is a type of sets, whose cardinality depends on the number of subsets formed for a given set.
 
 - Approximation algorithm (近似算法)
-: An approximation algorithm is a way of dealing with NP-completeness for an optimization problem.
+: An Approximate Algorithm is a way of approaching NP-COMPLETENESS for the optimization problem. This technique does not guarantee the best solution. The goal of an approximation algorithm is to come as close as possible to the optimum value in a reasonable amount of time which is at the most polynomial time.
 
 - Factorial function (阶乘函数)
-: The number is multiplied with all the integers that lie between 1 and the number itself.
+: Factorial of a positive integer (number) is the sum of the multiplication of all the integers smaller than that positive integer.
 
 ## Chapter 9: Dynamic programming
 - Dynamic programming (动态规划)
