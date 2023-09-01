@@ -197,14 +197,14 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : Factorial of a positive integer (number) is the sum of the multiplication of all the integers smaller than that positive integer.
 
 ## Chapter 9: Dynamic programming
-- Dynamic programming (动态规划)
-: Dynamic programming is most important to optimize the solutions to the problem in comparison to the recursive approach.
+- **Dynamic programming (动态规划)**
+: Dynamic programming is a computer programming technique where an algorithmic problem is first broken down into sub-problems, the results are saved, and then the sub-problems are optimized to find the overall solution — which usually has to do with finding the maximum and minimum range of the algorithmic query.
 
 - Feynman algorithm (费曼算法)
 : 1. Write down the problem. 2. Think really hard. 3. Write down the solution.
 
 - Levenshtein distance (编辑距离)
-: The Levenshtein distance is a text similarity measure that compares two words and returns a numeric value representing the distance between them.
+: The Levenshtein distance (a.k.a edit distance) is a measure of similarity between two strings. It is defined as the minimum number of changes required to convert string a into string b (this is done by inserting, deleting or replacing a character in string a).
 
 ## Chapter 10: KNN
 - K-nearest neighbours (K最近邻)
