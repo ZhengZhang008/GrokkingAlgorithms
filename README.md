@@ -162,26 +162,26 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 : A tree is a collection of nodes connected by directed (or undirected) edges. A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures.
 
 ## Chapter 7: Dijkstra's algorithm
-- Dijkstra's algorithm (迪科斯特拉算法)
-: Dijkstra's algorithm is an iterative algorithm that provides us with the shortest path from one particular starting node (in our case) to all other nodes in the graph.
+- **Dijkstra's algorithm (迪科斯特拉算法)**
+: Dijkstra's algorithm keeps track of the currently known shortest distance from each node to the source node and updates the value after it finds the optimal path once the algorithm finds the shortest path between the source node and destination node then the specific node is marked as visited.
 
 - Weight (权重)
-: Weights is an optional parameter which is used to weigh the possibility for each value.
+: A set of weighted inputs allows each artificial neuron or node in the system to produce related outputs.
 
 - Weight graph (加权图)
-: If edges in your graph have weights then your graph is said to be a weighted graph.
+: A weighted graph is defined as a special type of graph in which the edges are assigned some weights which represent cost, distance, and many other relative measuring units.
 
 - Unweighted graph (非加权图)
-: If the edges do not have weights, the graph is said to be unweighted.
+: An unweighted graph is a graph in which the edges do not have weights or costs associated with them. Instead, they simply represent the presence of a connection between two vertices.
 
 - Directed acyclic graph (有向无环图)
-: A directed acyclic graph is a graph that doesn't contain a cycle and has directed edges.
+: a directed acyclic graph (DAG) is a graph that is directed and without cycles connecting the other edges. This means that it is impossible to traverse the entire graph starting at one edge. The edges of the directed graph only go one way.
 
-- Parent node(父节点)
+- Parent node (父节点)
 : Any sub-node of a given node is called a child node, and the given node, in turn, is the child's parent.
 
 - Bellman-Ford algorithm (贝尔曼-福德算法)
-: Bellman-Ford algorithm is used to find the shortest path from the source vertex to every vertex in a weighted graph.
+: The Bellman-Ford algorithm emulates the shortest paths from a single source vertex to all other vertices in a weighted digraph. It is slower than Dijkstra's algorithm for the same problem but more versatile because it can handle graphs with some edge weights that are negative numbers.
 
 ## Chapter 8: Greedy algorithms
 - Greedy algorithms (贪婪算法)
