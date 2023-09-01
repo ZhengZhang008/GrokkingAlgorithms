@@ -208,19 +208,22 @@ The sample code at GitHub [Grokking Algorithms Sample Code](https://github.com/e
 
 ## Chapter 10: KNN
 - K-nearest neighbours (K最近邻)
-: K-nearest neighbour basically creates an imaginary boundary to classify the data.
+: The K-Nearest Neighbor (KNN) algorithm is a popular machine learning technique used for classification and regression tasks. It relies on the idea that similar data points tend to have similar labels or values. During the training phase, the KNN algorithm stores the entire training dataset as a reference.
 
 - Normalization (归一化)
-: Normalization is the process of organizing data in a database.
+: Normalization is the process of reorganizing data in a database so that it meets two basic requirements: There is no redundancy of data, all data is stored in only one place. Data dependencies are logical, all related data items are stored together.
+
+- Feature extraction (特征提取)
+: Feature extraction is the name for methods that select and /or combine variables into features, effectively reducing the amount of data that must be processed, while still accurately and completely describing the original data set.
 
 - Regression (回归)
-: Regression refers to the process of a project regressing, or returning to a previous state.
+: Regression, one of the most common types of machine learning models, estimates the relationships between variables. Whereas classification models identify which category an observation belongs to, regression models estimate a numeric value.
 
 - Cosine similarity (余弦相似度)
 : Cosine similarity is a measure of similarity, often used to measure document similarity in text analysis.
 
 - Naive Bayes classifier (朴素贝叶斯分类器)
-: Naive Bayes classifier is successfully used in various applications such as spam filtering, text classification, sentiment analysis, and recommender systems.
+: Naive Bayes is a classification algorithm for binary (two-class) and multiclass classification problems. It is called Naive Bayes or idiot Bayes because the calculations of the probabilities for each class are simplified to make their calculations tractable.
 
 ## Chapter 11: The next step
 - Binary search tree (二叉查找树)
